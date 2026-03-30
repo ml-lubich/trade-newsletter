@@ -23,10 +23,16 @@ export function Header() {
             About
           </Link>
           <Link
-            href="/premium"
+            href="/dashboard"
+            className="text-muted hover:text-foreground transition-colors"
+          >
+            Dashboard
+          </Link>
+          <Link
+            href="/login"
             className="text-accent hover:text-accent-hover transition-colors font-medium"
           >
-            Premium
+            Login
           </Link>
         </nav>
       </div>
